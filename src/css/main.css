@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Changa:400,700&subset=latin-ext');
+body {
+  font-family: 'Changa', sans-serif;
+}
+
+hr {
+  border-top: 5px solid #f4f5f6;
+}
+
+img {
+  box-shadow: 0 3px 6px 0 rgba(168,182,191,0.6);
+}
+
+.nav--main {
+  display: inline;
+  font-size: 2.4em;
+}
+
+.nav--element {
+  font-size: 1.6em;
+}
+
+.list--bare {
+  list-style: none;
+}
+
+.content {
+  margin: 5px 10px;
+}
+
+.not-visible {
+  opacity: 0;
+}
+
+.visible {
+  opacity: 1;
+}
+
+.hidden {
+  display: none;
+}
+
+.btn-darkmagenta:focus {
+  background-color: #8B008B;
+}
+
+
+/* STARS */
+
+@font-face {
+  font-family: 'star';
+  src: url('icons/star.eot?7974584');
+  src: url('icons/star.eot?7974584#iefix') format('embedded-opentype'), url('icons/star.woff2?7974584') format('woff2'), url('icons/star.woff?7974584') format('woff'), url('icons/star.ttf?7974584') format('truetype'), url('icons/star.svg?7974584#star') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "star";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-star:before {
+  content: '\e800';
+}
+
+.form-fieldset {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.form-label--inline {
+  display: inline-block;
+  margin: 15px 10px 15px 0;
+}
+
+.rating {
+  display: inline-block;
+  font-size: 0;
+  line-height: 0;
+}
+
+.rating__star {
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 1;
+}
+
+.rating__star--hovered,
+.rating__star--selected {
+  color: #9b4dca;
+}
+
+input[type="radio"] {
+  -webkit-appearance: radio;
+}
