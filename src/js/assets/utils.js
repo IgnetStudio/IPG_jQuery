@@ -1,3 +1,9 @@
+(function ($) { 
+    $(document).ready(function () {
+        // empty
+    });
+ })(jQuery);
+
 (function($) {
 
     var utils = {};

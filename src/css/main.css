@@ -40,10 +40,52 @@ img {
   display: none;
 }
 
+.text-color-1 {
+  color: #4B0082;
+}
+
+.text-color-2 {
+  color: #000080;
+}
+
+.text-color-3 {
+  color: #8B4513;
+}
+
+/* BUTTONS & LINKS */
+
 .btn-darkmagenta:focus {
   background-color: #8B008B;
 }
 
+.btn--active {
+  background-color: #DA70D6;
+  color: #fff;
+  padding: 15px 30px;
+  margin: 10px 0;
+  height: initial;
+  display: block;
+}
+
+.link--active {
+  background-color: #DC143C;
+  color: #fff;
+  padding: 15px 30px;
+  margin: 20px 0 10px 10px;
+}
+
+.link--active:hover, .btn--active:hover {
+  color: #FDF5E6;
+}
+
+.btn--insert, .btn--epsilon {
+  background-color: #9400D3;
+  color: #fff;
+  padding: 15px 30px;
+  margin: 10px 0;
+  height: initial;
+  display: block;
+}
 
 /* STARS */
 
